@@ -126,6 +126,7 @@ ul .projLable li {
     border: 3px outset lightgray;
     background-color: slategray;
     border-radius: 10px;
+    margin-bottom: 20px;
 
 }
 
@@ -143,7 +144,7 @@ ul .projLable li {
     display: table;
     width: 850px;
     /*border-bottom: 15px solid slategray;*/
-    padding: 15px 15px 15px 15px;
+    padding: 15px 15px 0px 15px;
 }
 
 #contentProj dt {
