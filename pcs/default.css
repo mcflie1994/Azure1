@@ -163,3 +163,25 @@ ul .projLable li {
 #pass {
     display: none;
 }
+
+#log {
+    border: 2px inset darkslategray;
+    width: 950px;
+    margin: 0px auto;
+    height: 100px;
+    overflow: scroll;
+    background-color: black;
+    font-family: monospace;
+}
+
+.info {
+    color: darkgreen;
+}
+
+.wrtout {
+    color: red;
+}
+
+.readin {
+    color: blue;
+}
