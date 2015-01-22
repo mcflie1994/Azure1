@@ -169,8 +169,8 @@ ul .projLable li {
 }
 
 #log {
-    border: 2px inset darkslategray;
-    width: 950px;
+    border: 4px inset darkslategray;
+    width: 942px;
     margin: 0px auto;
     height: 100px;
     overflow: scroll;
