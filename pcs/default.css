@@ -7,7 +7,7 @@ body {
 
 #wrapper {
     width: 950px;
-    background-color: black;
+    background-color: lightgray;
     margin: 20px auto;
 }
 
@@ -31,6 +31,7 @@ nav {
     color: crimson;
     margin: 0px auto;
     display: table;
+    width: 950px;
 }
 
 nav a , nav a:visited {
