@@ -158,3 +158,7 @@ ul .projLable li {
 .projector {
     height: 40px;
 }
+
+#pass {
+    display: none;
+}
