@@ -84,3 +84,13 @@ footer span {
     margin-left: 20px;
     margin-top: 5px;
 }
+
+#content p {
+    font-size: 1.5em;
+    font-family: fantasy;
+}
+
+#signature {
+    font-family: cursive;
+    font-size: 2em;
+}
