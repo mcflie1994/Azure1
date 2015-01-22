@@ -35,7 +35,11 @@ nav {
     margin: 0px auto;
     display: table;
     width: 950px;
-    border-bottom: 15px solid slategray;
+}
+
+#spacer {
+    height: 15px;
+    background-color: slategray;
 }
 
 nav a , nav a:visited {
@@ -184,4 +188,45 @@ ul .projLable li {
 
 .readin {
     color: blue;
+}
+
+#nav2 {
+    display: table;
+    background-color: crimson;
+    color: whitesmoke;
+    height: 30px;
+    width: 950px;
+    margin: 0px auto;
+    font-size: 18px;
+    border-top: 3px solid slategray;
+    position: relative;
+    margin-top: -35px;
+    opacity: 0;
+}
+
+#nav3 {
+    width: 950px;
+    background-color: crimson;
+    margin: 20px auto;
+}
+
+#nav2 ul {
+    list-style-type: none;
+    margin: 0px auto;
+}
+
+#nav2 li {
+    display: block;
+    float: left;
+    border-left: 3px solid slategray;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#nav2 a , #nav2 a:visited {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 0px 10px;
+    display: block;
+    text-align: right;
 }
