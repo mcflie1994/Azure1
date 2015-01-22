@@ -117,15 +117,17 @@ ul .projLable li {
 #contentProj dd {
     display: inline;
     float: left;
-    border-left: 3px solid gray;
     font-size: 20px;
     line-height: 30px;
-    width: 100px;
     text-align: center;
-    margin: 0px;
+    margin-left: 3px;
+    height: 30px;
+    width: 95px;
+    border: 3px outset gray;
+    background-color: slategray;
+    border-radius: 10px;
 
 }
-
 #contentProj dl {
     list-style-type: none;
     margin: 0px auto;
@@ -146,17 +148,12 @@ ul .projLable li {
 #contentProj dt {
     display: block;
     float: left;
-    border-left: 3px solid gray;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 36px;
     width: 175px;
     text-align: center;
 }
 
 .projector {
     height: 40px;
-}
-
-.button {
-
 }
