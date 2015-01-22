@@ -105,3 +105,58 @@ footer span {
     font-family: cursive;
     font-size: 2em;
 }
+
+ul .projLable li {
+    width: 200px;
+}
+
+.button {
+
+}
+
+#contentProj dd {
+    display: inline;
+    float: left;
+    border-left: 3px solid gray;
+    font-size: 20px;
+    line-height: 30px;
+    width: 100px;
+    text-align: center;
+    margin: 0px;
+
+}
+
+#contentProj dl {
+    list-style-type: none;
+    margin: 0px auto;
+}
+
+#contentProj {
+    font-size: 24px;
+    height: 40px;
+    background-color: lightgray;
+    color: black;
+    margin: 0px auto;
+    display: table;
+    width: 850px;
+    /*border-bottom: 15px solid slategray;*/
+    padding: 15px 15px 15px 15px;
+}
+
+#contentProj dt {
+    display: block;
+    float: left;
+    border-left: 3px solid gray;
+    font-size: 20px;
+    line-height: 30px;
+    width: 175px;
+    text-align: center;
+}
+
+.projector {
+    height: 40px;
+}
+
+.button {
+
+}
