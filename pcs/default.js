@@ -9,8 +9,8 @@ $(document).ready(function() {
         }
     };
     if ($('#nav2').html() !== "" && $('#nav2').html() !== undefined) {
-        $('#nav2').animate({marginTop: 0}, 1500, 'linear');
-        $(this).delay(1000);
+        $('#nav2').animate({marginTop: 0}, 1000, 'linear');
+        $(this).delay(500);
         $('#nav2').animate({opacity: 100},500);
     }
     else {
