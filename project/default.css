@@ -46,3 +46,7 @@ a:visited {
     display: block;
     text-align: right;
 }
+
+ul {
+    list-style-type: none;
+}
