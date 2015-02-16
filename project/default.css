@@ -1,0 +1,48 @@
+body {
+    background-color: darkolivegreen;
+    color: gainsboro;
+}
+
+h1 {
+    text-align: center;
+    color: tomato;
+}
+
+h3 {
+    color: khaki;
+}
+
+dt {
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+dl {
+    margin-left: 20px;
+}
+
+a:link {
+    text-decoration: none;
+    color: darkorange;
+}
+
+a:visited {
+    color: darkorange;
+}
+
+#nav li {
+    display: block;
+    float: left;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0px auto;
+}
+
+#nav a , #nav a:visited {
+    padding: 0px 10px;
+    display: block;
+    text-align: right;
+}
