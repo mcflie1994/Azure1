@@ -47,6 +47,27 @@ a:visited {
     text-align: right;
 }
 
-ul {
+#indexContent ul {
     list-style-type: none;
 }
+
+.floating {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 40px;
+    width: 100%;
+    z-index: 100;
+    background-color: greenyellow;
+    opacity: .3;
+}
+
+#nav-right {
+    float: right;
+}
+
+frame, object {
+    height: 100%;
+    width: 100%;
+}
+
