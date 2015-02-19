@@ -13,7 +13,7 @@ header {
 
 nav {
     background-color: #90C7E3;
-    padding: 20px 5px 5px 5px;
+    padding: 5px 5px 5px 20px;
     font-weight: bold;
 }
 
@@ -57,7 +57,7 @@ h3 {
 }
 
 #content {
-    padding: 20px 1px 20px 20px;
+    padding: 1px 20px 20px 20px;
 }
 
 h1, h2, h3 {
