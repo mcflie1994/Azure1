@@ -107,3 +107,12 @@ nav a:visited {
 nav a:hover {
     color: #FFFFFF;
 }
+
+#content img {
+    float: left;
+    padding-right: 20px;
+}
+
+nav {
+    font-family: freestyle;
+}

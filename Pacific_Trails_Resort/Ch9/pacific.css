@@ -108,6 +108,11 @@ nav a:hover {
     color: #FFFFFF;
 }
 
+#content img {
+    float: left;
+    padding-right: 20px;
+}
+
 table {
     border: 1px solid #3399CC;
     width: 80%;
