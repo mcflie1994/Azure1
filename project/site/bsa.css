@@ -1,0 +1,186 @@
+body {
+    background-color: White;
+    padding: 0px;
+}
+
+header {
+    background-image: url("../assets/Troop-101_2015_WSJ_CSP_logo2.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    line-height: 30px;
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-block;
+    float: left;
+}
+
+nav li {
+    display: block;
+    float: left;
+    padding: 0px 25px 0px 0px;
+}
+
+nav a {
+    font-family: "league-gothic";
+    font-size: 20px;
+    font-synthesis: weight style;
+    font-kerning: auto;
+    font-weight: bold;
+    color: #E03A3C;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #E77777;
+}
+
+nav {
+    margin-left: 130px;
+}
+
+footer {
+    display: inline-block;
+    background-color: #E03A3C;
+    height: 150px;
+    color: #F8F8F2;
+    text-align: center;
+    line-height: 150px;
+    width: 100%;
+    margin: 0px;
+    border: none;
+    padding: 0px;
+    margin-top: 75px;
+    clear: both;
+}
+
+#ylead, #alead {
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    clear: both;
+    font-weight: bold;
+    position: relative;
+}
+
+.bio {
+    background-color: #CBCBCB;
+    width: 200px;
+    height: 560px;
+    padding: 20px;
+    display: inline-block;
+    margin: 25px;
+    float: left;
+    text-align: justify;
+    border-radius: 10px;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.bio img {
+    height: 200px;
+    width: 200px;
+    padding-bottom: 10px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+#rheader {
+    background-color: #E03A3C;
+    height: 75px;
+    color: #F8F8F2;
+    line-height: 75px;
+    text-align: center;
+    clear: both;
+    display: block;
+    width: 100%;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#ylead {
+    position: relative;
+    top: 95px;
+}
+
+#ybios {
+    position: relative;
+    top: 65px;
+}
+
+#alead {
+    position: relative;
+    top: 65px;
+}
+
+#abios {
+    position: relative;
+    top: 40px;
+}
+
+#content {
+    margin: auto;
+    width: 85%;
+    min-width: 900px;
+}
+
+.sponsor img {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.sponsor {
+    clear: both;
+    height: 200px;
+    width: 660px;
+    padding: 20px;
+    background-color: #CBCBCB;
+    margin: 25px auto;
+    border-radius: 10px;
+    position: relative;
+    top: 70px;
+    text-align: justify;
+}
+
+.sponsor img {
+    padding-right: 10px;
+}
+
+#blank {
+    display: none;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 80px;
+    padding-right: 10px;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+#forms {
+    width: 350px;
+    margin: 25px auto;
+    clear: both;
+    display: block;
+    position: relative;
+    top: 75px;
+    text-align: justify;
+}
+
+form {
+    margin-top: 15px;
+}
