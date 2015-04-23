@@ -129,6 +129,7 @@ ul {
 #content {
     margin: auto;
     width: 85%;
+    text-align: center;
 }
 
 .sponsor img {
@@ -204,4 +205,10 @@ form {
     width: 150px;
     float: left;
     padding: 0px 10px 10px 0px;
+}
+
+#contact1 {
+    position: relative;
+    clear: both;
+    top: 75px;
 }
