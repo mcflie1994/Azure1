@@ -52,9 +52,12 @@ h3 {
 
 #wrapper {
     margin: auto;
+    padding-bottom: -20px;
     width: 80%;
     min-width: 960px;
     background-color: #90C7E3;
+    bottom: 20px;
+    height: 742px;
 }
 
 #content {
@@ -77,13 +80,16 @@ h1, h2, h3 {
 }
 
 footer {
-    padding: 20px;
+    padding: 30px;
     font-size: 75%;
     font-family: Times;
     font-style: italic;
     margin-left: 190px;
     background-color: #FFFFFF;
     float: none;
+    top: -20px;
+    position: relative;
+    bottom: 20px;
 }
 
 nav ul {
@@ -179,6 +185,10 @@ video {
 #gallery {
     position: relative;
     height: 200px;
+    background-color: white;
+    left: 190px;
+    top: -20px;
+    padding-bottom: 20px;
 }
 
 #gallery figure {
