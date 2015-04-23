@@ -90,6 +90,7 @@ ul {
 
 .name {
     font-weight: bold;
+    padding-bottom: 15px;
 }
 
 #rheader {
@@ -128,7 +129,6 @@ ul {
 #content {
     margin: auto;
     width: 85%;
-    min-width: 900px;
 }
 
 .sponsor img {
@@ -183,4 +183,25 @@ input, textarea {
 
 form {
     margin-top: 15px;
+}
+
+.funds {
+    background-color: #CBCBCB;
+    width: 460px;
+    height: 200px;
+    padding: 20px;
+    display: inline-block;
+    margin: 25px;
+    float: left;
+    text-align: justify;
+    border-radius: 10px;
+    position: relative;
+    top: 75px;
+}
+
+.funds img {
+    height: 150px;
+    width: 150px;
+    float: left;
+    padding: 0px 10px 10px 0px;
 }
