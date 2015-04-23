@@ -178,9 +178,10 @@ video {
 
 #gallery {
     position: relative;
+    height: 200px;
 }
 
-figure {
+#gallery figure {
     position: absolute;
     left: 280px;
     text-align: left;
@@ -225,10 +226,6 @@ figure {
     left: 320px;
     text-align: left;
     opacity: 1;
-}
-
-#gallery {
-    height: 200px;
 }
 
 /*---------------------------------------------------------------------------*/
