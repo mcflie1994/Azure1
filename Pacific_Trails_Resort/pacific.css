@@ -83,6 +83,7 @@ footer {
     font-style: italic;
     margin-left: 190px;
     background-color: #FFFFFF;
+    float: none;
 }
 
 nav ul {
@@ -94,6 +95,12 @@ nav ul {
 
 nav a {
     text-decoration: none;
+    display: block;
+    padding: 15px;
+    -webkit-transition: color 3s ease-out;
+    -moz-transition: color 3s ease-out;
+    -o-transition: color 3s ease-out;
+    transition: color 3s ease-out;
 }
 
 nav a:link {
@@ -157,6 +164,71 @@ label {
 input, textarea {
     display: block;
     margin-bottom: 20px;
+}
+
+video {
+    width: 320px;
+    height: 240px;
+}
+
+#content img, #content video, #content embed {
+    float: left;
+    padding-right: 20px;
+}
+
+#gallery {
+    position: relative;
+}
+
+figure {
+    position: absolute;
+    left: 280px;
+    text-align: left;
+    opacity: .25;
+}
+
+#gallery ul {
+    width: 300px;
+    list-style-type: none;
+}
+
+#gallery li {
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+
+#gallery img {
+    border: none;
+    float: none;
+}
+
+#gallery a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+
+#gallery span {
+    position: absolute;
+    left: -1000px;
+    opacity: 0;
+    -webkit-transition: opacity 3s ease-in-out;
+    -moz-transition: opacity 3s ease-in-out;
+    -o-transition: opacity 3s ease-in-out;
+    transition: opacity 3s ease-in-out;
+}
+
+#gallery a:hover span {
+    position: absolute;
+    top: 16px;
+    left: 320px;
+    text-align: left;
+    opacity: 1;
+}
+
+#gallery {
+    height: 200px;
 }
 
 /*---------------------------------------------------------------------------*/
@@ -250,5 +322,9 @@ header, hgroup, nav, footer, figure, figcaption, aside, section, article {
     label {
         float: none;
         text-align: left;
+    }
+
+    #gallery {
+        display: none;
     }
 }
