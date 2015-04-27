@@ -231,3 +231,11 @@ form {
     font-weight: bold;
     color: #666666;
 }
+
+dt {
+    margin-bottom: 5px;
+}
+
+dd {
+    margin-bottom: 15px;
+}
