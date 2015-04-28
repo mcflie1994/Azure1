@@ -331,3 +331,15 @@ tr:nth-of-type(odd) {
     width: 100%;
     height: 400px;
 }
+
+#error {
+    color: crimson;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+#forms p {
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
