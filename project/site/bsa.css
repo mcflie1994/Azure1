@@ -239,3 +239,23 @@ dt {
 dd {
     margin-bottom: 15px;
 }
+
+#indeximg {
+    top: 75px;
+    clear: both;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+#indeximg img {
+    clear: both;
+    top: 75px;
+    width: 45%;
+    height: auto;
+}
+
+#indexcon {
+    text-align: justify;
+    font-size: 1.5em;
+}
